@@ -42,16 +42,17 @@
 }
 
 .nav-item.active a {
-	color: var(--link-color) !important;
+	color: #69877f !important;
+	text-decoration: underline;
 }
 
 .nav-item a {
 	text-decoration: none;
-	color: var(--primary-color);
+	color: black;
 }
 
 .nav-item a:hover {
-	color: var(--link-color);
+	color: #84a59d;
 	transition: color 0.3s ease-in-out;
 }
 

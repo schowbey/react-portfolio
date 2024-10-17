@@ -13,23 +13,20 @@ const Footer = () => {
 							<Link to="/">Home</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/about">About</Link>
-						</li>
-						<li className="footer-nav-link-item">
 							<Link to="/projects">Projects</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/articles">Articles</Link>
+							<Link to="/resume">Resume</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/contact">Contact</Link>
+							<Link to="/about">About</Link>
 						</li>
 					</ul>
 				</div>
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. All Rights Reserved.
+						© 2024 Shilpa Chowbey.
 					</div>
 				</div>
 			</div>
