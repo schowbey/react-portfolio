@@ -1,5 +1,3 @@
-@import "/src/data/styles.css";
-
 ::-webkit-scrollbar {
 	width: 10px;
 }
@@ -29,7 +27,7 @@
 	top: 0;
 	bottom: 0;
 	width: calc((100% - 1200px) / 2);
-	background-color: #fafafa;
+	background-color: #e3e9df;
 	border: 1px solid #f4f4f5;
 }
 
@@ -49,8 +47,6 @@
 }
 
 .title {
-	color: var(--primary-color);
-	font-family: var(--secondary-font);
 	font-size: 45px;
 	font-weight: 700;
 	width: 70%;
@@ -58,7 +54,6 @@
 
 .subtitle {
 	padding-top: 10px;
-	color: var(--secondary-color);
 	font-size: 16px;
 	line-height: 28px;
 	width: 70%;
@@ -74,7 +69,7 @@
 	position: absolute;
 	left: 0;
 	right: 0;
-	border-top: 2px solid var(--tertiary-color);
+	border-top: 2px solid grey;
 }
 
 @media (max-width: 1270px) {
